@@ -1,0 +1,77 @@
+.datatable {
+  height: 84.4vh;
+  padding: 20px;
+  margin-left: -2.1vh;
+}
+.datatable .cellWithStatus {
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.datatable .Active {
+  color: #20d56a;
+}
+.datatable .Inactive {
+  color: #fe2727;
+}
+.datatable .cellWithorder {
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.datatable .Completed {
+  color: #2485fc;
+}
+.datatable .Pending {
+  color: #525252;
+}
+.datatable .cellAction {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.datatable .cellAction .veiwButton {
+  padding: 5px;
+  border-radius: 5px;
+  color: #e77f44;
+  /* border: 1px dotted rgba(0, 0, 139, 0.534); */
+  cursor: pointer;
+}
+.datatable .cellAction .deleteButton {
+  padding: 5px;
+  border-radius: 5px;
+  color: #e77f44;
+  /* border: 1px dotted rgba(220, 20, 60, 0.74); */
+  cursor: pointer;
+}
+.datatable .MuiDataGrid-cellContent {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #525252;
+  padding-left: 4vh;
+}
+.MuiDataGrid-columnHeaderTitle {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #242d2c;
+  /* margin-right: 2vh; */
+}
+.MuiDataGrid-row:nth-child(odd){
+    background-color: #F9F9F9;
+  }

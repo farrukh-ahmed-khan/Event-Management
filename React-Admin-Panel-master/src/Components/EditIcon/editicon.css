@@ -1,0 +1,30 @@
+.Statuses {
+  position: absolute;
+  right: 150px;
+  margin-top: 190px;
+  /* top: 50px; */
+  /* margin-right:150px;
+  margin-top: 50px; */
+  width: 158px;
+  height: 130px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding-top: 1.8vh;
+}
+.Statuses p {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #848484;
+}
+.Statuses .square {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #5c3d9e;
+  border-radius: 4px;
+  margin-left: 10px;
+}

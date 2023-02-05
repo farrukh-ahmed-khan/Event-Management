@@ -1,0 +1,34 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  height: 100%;
+  background-color: #fff;
+}
+.center {
+  padding-left: 10px;
+}
+.center ul {
+  list-style: none;
+  margin: 0;
+  padding: 6vh;
+}
+.center ul li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.center ul li .icon {
+  margin: 1.2vh;
+  font-size: 24px;
+  color: #242d2c;
+}
+.center ul li span {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #242d2c;
+}

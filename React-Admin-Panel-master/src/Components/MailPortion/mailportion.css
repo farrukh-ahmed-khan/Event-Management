@@ -1,0 +1,95 @@
+.odd {
+  background-color: #f4f4f4;
+}
+.UserDiv {
+  height: 73px;
+  transition: 1s;
+}
+.active {
+  margin-bottom: 31vh;
+}
+.UserDiv .UserDes .UserName {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #848484;
+  padding-left: 1vh;
+}
+.UserDiv .SubHeading {
+  padding-left: 40%;
+}
+.UserDiv .SubHeading .EmailBtnDiv .EmailBtn {
+  width: 157px;
+  height: 54px;
+  background: #efecce;
+  border-radius: 7px;
+  border: none;
+  margin-top: 20vh;
+  margin-left: 3.7vh;
+}
+.UserDiv .SubHeading .EmailBtnDiv .EmailBtn a {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #242d2c;
+  text-decoration: none;
+}
+.UserDiv .SubHeading {
+  height: 30.9vh;
+  background: rgba(239, 236, 206, 0.26);
+}
+.UserDiv .SubHeading .MailPortion {
+  display: flex;
+  flex-direction: column;
+}
+.UserDiv .SubHeading .MessagePortion {
+  display: flex;
+  flex-direction: column;
+}
+.UserDiv .SubHeading .MailPortion .MailHeading,
+.UserDiv .SubHeading .MessagePortion .MessageHeading {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+  padding: 3.7vh;
+}
+.UserDiv .SubHeading .MailPortion .UserMail {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #525252;
+  padding-left: 3.7vh;
+}
+.UserDiv .SubHeading .MessagePortion .UserMessage {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  /* text-align: center; */
+  color: #848484;
+  padding-left: 3.7vh;
+  width: 58vh;
+}
+@media (max-width: 800px) {
+  .active {
+    margin-bottom: 70%;
+  }
+  .UserDiv .SubHeading {
+    padding-left: 0%;
+  }
+  .UserDiv .SubHeading .MessagePortion .UserMessage {
+    width: auto;
+  }
+  .UserDiv .SubHeading {
+    height: auto;
+  }
+}

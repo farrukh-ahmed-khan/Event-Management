@@ -1,0 +1,44 @@
+.home .homeContainer {
+  display: flex;
+  flex-direction: row;
+}
+.home .homeContainer .homeHeading{
+  margin-left: 5vh;
+}
+.home .homeContainer .homeHeading .heading {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: #242d2c;
+
+}
+.home .homeContainer .widgets {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+  flex-direction: row;
+  margin-left: 7vh;
+}
+.home .homeContainer .charts{
+  padding-left: 2vh;
+  padding: 7vh;
+}
+.foot{
+  width: 185vh;
+}
+@media (max-width: 800px){
+  .home .homeContainer {
+    flex-direction: column;
+  }
+  .home .homeContainer .widgets{
+    flex-direction: column;
+  }
+  .home .homeContainer .charts{
+    width: auto;
+  }
+  .foot{
+    width: 100%;
+  }
+}

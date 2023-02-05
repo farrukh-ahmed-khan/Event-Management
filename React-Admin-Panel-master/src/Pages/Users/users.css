@@ -1,0 +1,27 @@
+.list .listContainer {
+  display: flex;
+  flex-direction: row;
+}
+/* .list .listContainer .listHeading{
+  margin-left: 5vh;
+} */
+.list .listContainer .listHeading .heading {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: #242d2c;
+
+}
+.list .listContainer .DataTable{
+  width: 180vh;
+}
+.UsersSlides{
+  margin-bottom: 32.5vh;
+}
+@media (max-width: 800px){
+  .list .listContainer {
+    flex-direction: column;
+  }
+}

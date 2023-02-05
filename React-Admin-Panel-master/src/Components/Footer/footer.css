@@ -1,0 +1,18 @@
+.FooterParent{
+    display: flex;
+    /* justify-content: flex-end; */
+}
+.Footer {
+  width: 100%;
+  height: 145px;
+  background-color: #efecce;
+  text-align: center;
+}
+.Footer .FooterRights {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #242d2c;
+  line-height: 145px;
+}

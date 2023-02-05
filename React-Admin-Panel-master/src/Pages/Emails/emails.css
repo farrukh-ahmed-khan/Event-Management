@@ -1,0 +1,25 @@
+.Emails .EmailsContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .Emails .EmailsContainer .EmailsHeading .heading {
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #242d2c;
+  
+  }
+  .Emails .EmailsContainer .DataTable{
+    width: 180vh;
+  }
+  .EmailsFoot{
+    width: 185vh;
+    margin-top: 33vh;
+  }
+  @media (max-width: 800px){
+    .Emails .EmailsContainer {
+      flex-direction: column;
+    }
+  }

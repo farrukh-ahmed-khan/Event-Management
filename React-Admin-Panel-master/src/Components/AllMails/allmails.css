@@ -1,0 +1,57 @@
+.odd {
+  background-color: #f4f4f4;
+}
+.UserDiv {
+  height: 73px;
+  transition: 1s;
+}
+.active {
+  margin-bottom: 31vh;
+}
+.UserDiv .UserDes .UserName {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #848484;
+  padding-left: 1vh;
+}
+.UserDiv .UserDes .desc {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #848484;
+  padding-left: 1vh;
+}
+.UserDiv .MailCount {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #242d2c;
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .active {
+    margin-bottom: 70%;
+  }
+  .UserDiv .SubHeading {
+    padding-left: 0%;
+  }
+  .UserDiv .SubHeading .MessagePortion .UserMessage {
+    width: auto;
+  }
+  .UserDiv .SubHeading {
+    height: auto;
+  }
+}

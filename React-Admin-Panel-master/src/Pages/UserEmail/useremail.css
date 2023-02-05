@@ -1,0 +1,30 @@
+.UserEmail .UserEmailContainer {
+  display: flex;
+  flex-direction: row;
+}
+/* .UserEmail .UserEmailContainer .UserEmailHeading{
+  margin-left: 5vh;
+} */
+.UserEmail .UserEmailContainer .UserEmailHeading .heading {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: #242d2c;
+}
+.UserEmail .UserEmailContainer .DataTable{
+  width: 180vh;
+}
+.mailfoot{
+  width: 185vh;
+  margin-top: 10vh;
+}
+@media (max-width: 800px){
+  .UserEmail .UserEmailContainer {
+    flex-direction: column;
+  }
+  .mailfoot{
+    width: 100%;
+  }
+}

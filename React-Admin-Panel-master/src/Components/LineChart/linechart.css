@@ -1,0 +1,46 @@
+.LineChart {
+  width: 99.5vh;
+  height: 51.7vh; 
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+  margin: 5.5vh 8vh 7.9vh 2vh;
+}
+.LineChart .HeadingSelect {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+}
+.LineChart .HeadingSelect .HeadingPortion .SalesHeading {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 62px;
+  /* identical to box height */
+  color: #525252;
+}
+.chart {
+  flex: 4;
+  padding: 10px;
+  color: gray;
+  height: 100px;
+}
+.chart .chartGrid {
+  stroke: lightgray;
+}
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon{
+  color: #ffffff !important;
+
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+  color: #ffffff !important;
+}
+/* .MuiSvgIcon-root{
+  color: #ffffff;
+} */
+@media (max-width: 800px){
+  .LineChart{
+    width: auto;
+  }
+}

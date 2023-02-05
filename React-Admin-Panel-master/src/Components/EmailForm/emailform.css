@@ -1,0 +1,74 @@
+.FormMain {
+  display: flex;
+  flex-direction: column;
+}
+.FormMain .Send {
+  height: 61px;
+  background-color: #242d2c;
+  border: none;
+  display: flex;
+  padding-left: 4vh;
+}
+.FormMain .Send .SendMail {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 61px;
+  color: #ffffff;
+  padding-left: 1vh;
+}
+.FormMain .Info {
+  height: 60.5px;
+  border: none;
+  border-bottom: 1px solid #c7c7c7;
+}
+.FormMain .Message-Portion {
+  height: 325px;
+  border: none;
+  border-bottom: 1px solid #c7c7c7;
+}
+.FormMain .EmailBtn {
+  width: 186px;
+  height: 52px;
+  background: #efecce;
+  border-radius: 7px;
+  border: none;
+  margin-left: 150vh;
+  margin-top: 2vh;
+}
+::placeholder {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #848484;
+  padding-left: 4vh;
+}
+.quill   {
+  display: flex;
+  flex-direction: column-reverse; 
+}
+.ql-container {
+  /* border-bottom: 8px solid red; */
+  border: none !important;
+}
+.ql-toolbar{
+  border: none !important;
+  border-bottom: 1px solid #c7c7c7 !important;
+}
+.quill > .ql-container > .ql-editor.ql-blank::before{
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #848484;
+  padding-left: 2vh;
+}
+@media (max-width: 800px){
+  .FormMain .EmailBtn{
+    margin-left: 0;
+  }
+}
